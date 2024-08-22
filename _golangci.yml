@@ -1,0 +1,65 @@
+run:
+  tests: true
+
+linters-settings:
+  errcheck:
+    check-blank: true
+  gocyclo:
+    min-complexity: 20
+  gocognit:
+    min-complexity: 30
+  dupl:
+    threshold: 200
+  nakedret:
+    max-func-lines: 50
+  funlen:
+    lines: 80
+    statements: 50
+  gci:
+    sections:
+      - standard
+    custom-order: true
+  mnd:
+    ignored-numbers:
+      - '0600'
+  lll:
+    line-length: 150
+  wsl:
+    allow-cuddle-declarations: true
+
+linters:
+  enable-all: true
+  disable:
+    - goimports
+    - gochecknoglobals
+    - cyclop
+    - execinquery
+    - gomnd
+    - forbidigo
+    - wrapcheck
+    - depguard
+    - exhaustruct
+    - gofumpt
+    - inamedparam
+    - nonamedreturns
+  fast: false
+
+issues:
+  exclude-dirs:
+    - bin$
+    - \.git$
+    - misc$
+    - spec$
+    - pkg$
+    - common$
+  max-issues-per-linter: 0
+  max-same-issues: 0
+  exclude:
+    - "should have comment"
+    - "always receives"
+    - "parameter .* is always"
+    - "comment on exported .* should be of the form"
+
+output:
+  formats:
+    - format: colored-line-number

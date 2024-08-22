@@ -1,0 +1,125 @@
+{
+    "Orders": [
+      {
+        "OrderID": "1",
+        "UserID": "1",
+        "Condition": {
+          "Name": "given",
+          "Description": "given to client"
+        },
+        "DateArrival": "2024-06-05T15:00:00Z",
+        "DateReceiving": "2024-06-04T16:52:35.030661+03:00"
+      },
+      {
+        "OrderID": "3",
+        "UserID": "1",
+        "Condition": {
+          "Name": "given",
+          "Description": "given to client"
+        },
+        "DateArrival": "2024-06-07T15:00:00Z",
+        "DateReceiving": "2024-06-05T16:52:35.030661+03:00"
+      },
+      {
+        "OrderID": "8",
+        "UserID": "7",
+        "Condition": {
+          "Name": "refund",
+          "Description": "refund by client"
+        },
+        "DateArrival": "2025-01-02T15:04:00Z",
+        "DateReceiving": "2024-06-05T17:18:15.1376773+03:00"
+      },
+      {
+        "OrderID": "11",
+        "UserID": "11",
+        "Condition": {
+          "Name": "refund",
+          "Description": "refund by client"
+        },
+        "DateArrival": "2025-01-02T15:04:00Z",
+        "DateReceiving": "2024-06-06T08:23:24.3908675+03:00"
+      },
+      {
+        "OrderID": "6789",
+        "UserID": "456",
+        "Condition": {
+          "Name": "accepted",
+          "Description": "accepted from courier"
+        },
+        "DateArrival": "2025-01-02T15:04:00Z",
+        "DateReceiving": "0001-01-01T00:00:00Z"
+      },
+      {
+        "OrderID": "4575",
+        "UserID": "456",
+        "Condition": {
+          "Name": "accepted",
+          "Description": "accepted from courier"
+        },
+        "DateArrival": "2025-01-02T15:04:00Z",
+        "DateReceiving": "0001-01-01T00:00:00Z"
+      },
+      {
+        "OrderID": "457",
+        "UserID": "456",
+        "Condition": {
+          "Name": "accepted",
+          "Description": "accepted from courier"
+        },
+        "DateArrival": "2025-01-02T15:04:00Z",
+        "DateReceiving": "0001-01-01T00:00:00Z"
+      },
+      {
+        "OrderID": "451",
+        "UserID": "456",
+        "Condition": {
+          "Name": "accepted",
+          "Description": "accepted from courier"
+        },
+        "DateArrival": "2025-01-02T15:04:00Z",
+        "DateReceiving": "0001-01-01T00:00:00Z"
+      },
+      {
+        "OrderID": "67890",
+        "UserID": "456",
+        "Condition": {
+          "Name": "accepted",
+          "Description": "accepted from courier"
+        },
+        "DateArrival": "2035-01-02T15:04:00Z",
+        "DateReceiving": "0001-01-01T00:00:00Z"
+      },
+      {
+        "OrderID": "67891",
+        "UserID": "456",
+        "Condition": {
+          "Name": "accepted",
+          "Description": "accepted from courier"
+        },
+        "DateArrival": "2035-01-02T15:04:00Z",
+        "DateReceiving": "0001-01-01T00:00:00Z"
+      },
+      {
+        "OrderID": "67892",
+        "UserID": "456",
+        "Condition": {
+          "Name": "accepted",
+          "Description": "accepted from courier"
+        },
+        "DateArrival": "2035-01-02T15:04:00Z",
+        "DateReceiving": "0001-01-01T00:00:00Z"
+      },
+      {
+        "OrderID": "67893",
+        "UserID": "456",
+        "Condition": {
+          "Name": "accepted",
+          "Description": "accepted from courier"
+        },
+        "DateArrival": "2035-01-02T15:04:00Z",
+        "DateReceiving": "0001-01-01T00:00:00Z"
+      }
+    ],
+    "Hash": "906d5cb1-42d0-4553-8e06-7f932b42a913"
+  }

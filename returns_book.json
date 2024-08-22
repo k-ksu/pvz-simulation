@@ -1,0 +1,22 @@
+[
+    {
+      "OrderID": "3",
+      "UserID": "456",
+      "Condition": {
+        "Name": "accepted",
+        "Description": "accepted from courier"
+      },
+      "DateArrival": "2024-06-01T12:41:00Z",
+      "DateReceiving": "0001-01-01T00:00:00Z"
+    },
+    {
+      "OrderID": "1",
+      "UserID": "456",
+      "Condition": {
+        "Name": "accepted",
+        "Description": "accepted from courier"
+      },
+      "DateArrival": "2024-09-02T11:11:00Z",
+      "DateReceiving": "0001-01-01T00:00:00Z"
+    }
+  ]
